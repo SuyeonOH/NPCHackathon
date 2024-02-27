@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.SceneManagement;
 
 
 public class PLAYER : MonoBehaviour
@@ -56,6 +57,7 @@ public class PLAYER : MonoBehaviour
         if (collision.gameObject.tag == "GameOver")
         {
             Time.timeScale = 0;
+            SceneManager.LoadScene("Ending");
         }
     }
 
