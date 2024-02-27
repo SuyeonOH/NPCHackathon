@@ -7,8 +7,8 @@ public class PlayerController : MonoBehaviour
     private bool isJumping = false;
     private bool isFalling = false;
     private bool canJump = true;
-    private float jumpHeight = 20.0f;
-    private float jumpSpeed = 50.0f;
+    private float jumpHeight = 40.0f;
+    private float jumpSpeed = 80.0f;
     private Vector2 startPosition;
 
     void Start()
