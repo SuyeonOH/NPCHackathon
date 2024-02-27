@@ -51,4 +51,4 @@ public class Starcontrol : MonoBehaviour
         progressImages[imageIndex].gameObject.SetActive(true);
     }
 }
-}
+
